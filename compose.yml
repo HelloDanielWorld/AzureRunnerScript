@@ -1,0 +1,10 @@
+services:
+  runner:
+    image: runner123
+    restart: always
+    environment:
+      - REPO
+      - TOKEN
+    deploy:
+       mode: replicated
+       replicas: 3
