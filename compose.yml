@@ -1,6 +1,6 @@
 services:
   runner:
-    image: runner123
+    image: danielrosales02054/docker_runner_github:v1.0
     restart: always
     environment:
       - REPO
